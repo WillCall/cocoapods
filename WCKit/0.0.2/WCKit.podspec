@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage     		= "http://www.getwillcall.com"
   s.license      		= { :type => 'PRIVATE' }
   s.author       		= { "pat2man" => "pat2man@gmail.com" }
-  s.source       		= { :git => "git@github.com:WillCall/WCKit.git", :branch => 'master' }
+  s.source       		= { :git => "https://github.com/WillCall/WCKit.git", :branch => 'master' }
   s.source_files 		= 'WCPhysicsAnimation', 'WCNavigationController'
   s.frameworks  		= 'Foundation', 'UIKit', 'QuartzCore'
   s.dependency 			'Chipmunk-Physics'
