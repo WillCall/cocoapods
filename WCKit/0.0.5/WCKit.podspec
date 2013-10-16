@@ -10,4 +10,5 @@ Pod::Spec.new do |s|
   s.source_files 		= 'WCPhysicsAnimation', 'WCNavigationController'
   s.frameworks  		= 'Foundation', 'UIKit', 'QuartzCore'
   s.dependency 			'Chipmunk-Physics'
+  s.requires_arc    = true
 end
