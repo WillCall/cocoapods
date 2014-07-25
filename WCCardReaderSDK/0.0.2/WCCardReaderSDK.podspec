@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "WCCardReaderSDK"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "WillCall credit card reader library"
 
   s.description  = <<-DESC
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "6.0"
   s.source       = { :git => "git@github.com:WillCall/iOS-Card-Reader-SDK.git", :tag => "0.0.2" }
 
-  s.source_files  = 'WCCardReaderSDK', 'libMTSCRA/*.h', 'DUKPT/*.h'
+  s.source_files  = 'WCCardReaderSDK', 'libMTSCRA/*.h', 'DUKPT'
   s.public_header_files = 'WCCardReaderSDK/*.h'
   s.private_header_files = 'libMTSCRA/*.h', 'DUKPT/*.h'
 
